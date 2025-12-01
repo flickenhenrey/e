@@ -11,5 +11,33 @@ body {
 }
 
 .container {
-    padding: 20px;
+    padding: 40px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #00aaff;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 25px;
+    color: #cccccc;
+}
+
+#proceedButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#proceedButton:hover {
+    background-color: #0056b3;
 }
